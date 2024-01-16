@@ -8,11 +8,11 @@
   <link rel="stylesheet" href="css/bulma.min.css">
   <link rel="stylesheet" href="css/material-design-iconic-font.css">
   <link rel="stylesheet" href="css/style.css">
- 
 </head>
 
 <body>
   <nav class="navbar">
+
     <!-- Nabvar header -->
     <header class="navbar-header" id="navbar-header">
       <a href="#" class="brand-link is-size-3">
@@ -23,8 +23,8 @@
         <i class="zmdi zmdi-menu"></i>
       </button>
     </header>
-    <!-- Navbar container -->
 
+    <!-- Navbar container -->
       <ul class="navbar-container" id="navbar-container">
         <li class="navbar-item">
           <a data-scroll href="#top" id="inicio" class="navbar-a navbar-link-active">Bienvenido</a>
@@ -77,14 +77,15 @@
   <!-- Tabla de contenido -->
   <div id="section1" class="hero my-hero" style="--banner: url(../img/hero-img.jpg); --bg-atachment: fixed;">
     <div class="container-hero">
-
+      
       <div class="container">
-          <div class="column is-full has-text-centered">
+          <div class="columns is-multiline">
+            <div class="column is-full has-text-centered">
             <h1 class="title has-text-white is-size-3-mobile is-size-1-tablet">
               TABLA DE CONTENIDO
             </h1>
             <h5 class="subtitle is-size-5">
-              Sesiones de clase - Primer parcial
+              Sesiones de clase - Periodo 2023-II
             </h5>
           </div>
           <!--DESCRIPCION SEMANA 1-->
@@ -93,205 +94,191 @@
               <span class="container-icon">
                 <img src="img/panel.png" alt="">
               </span>
-              <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 1</h4>
+              <a href="/sumaryes/sem01.html">
+                <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 1</h4>
+              </a>
               <p class="has-text-centered is-size-7-mobile">21 de agosto al 25 de agosto del 2023</p>
             </div>
           </div>
-          <h5 class="subtitle is-size-6">DEFINICIONES</h5>
-          <p2>
-            <b>- HTML:</b><br>Significa "HyperText Markup Language", es un estándar que se utiliza para la creación y el diseño de páginas web. Fue desarrollado originalmente por el World Wide Web Consortium (W3C) con el objetivo de facilitar la creación y el intercambio de documentos en la World Wide Web.
-            <br><b>- CSS:</b><br>Significa "Cascading Style Sheets", es un lenguaje utilizado para describir el aspecto y formato de un documento HTML. En resumen, CSS se encarga de definir cómo se presentará el contenido HTML en un navegador.
-            <br><b>- HTTP:</b><br>Significa "Hypertext Transfer Protocol" (Protocolo de Transferencia de Hipertexto), es un protocolo de comunicación que se utiliza para la transmisión de información en la World Wide Web. 
-            <br><b>- JavaScript:</b><br>Es un lenguaje de programación de alto nivel, interpretado y orientado a objetos, diseñado principalmente para ejecutarse en navegadores web. Se utiliza para mejorar la interactividad de las páginas web al permitir la manipulación dinámica del contenido, responder a eventos del usuario y realizar operaciones en el lado del cliente. JavaScript es esencial en el desarrollo web moderno y se emplea para crear experiencias interactivas, validar formularios, gestionar el DOM y comunicarse con servidores a través de tecnologías como AJAX.
-            <br><b>- Desarrollador Frontend:</b><br>Es un profesional de la programación que se enfoca en la creación y mantenimiento de la interfaz de usuario y la experiencia del usuario en aplicaciones web o sitios web. Este tipo de desarrollador trabaja en el lado del cliente, es decir, en la parte del software que interactúa directamente con los usuarios finales a través de sus navegadores web.
-            <br><b>- Desarrollador Backend:</b><br>Es un profesional de la programación que se especializa en la creación y mantenimiento de la lógica, la base de datos y el servidor de una aplicación. A diferencia de los desarrolladores Frontend, que se centran en la interfaz de usuario y la interacción directa con los usuarios, los desarrolladores Backend trabajan en la "parte trasera" o el lado del servidor de una aplicación. 
-            <br><b>- Control de versiones:</b><br>Es un sistema que registra los cambios realizados en un conjunto de archivos a lo largo del tiempo. Su propósito principal es permitir la colaboración eficiente en proyectos de software y rastrear la evolución de los códigos fuente y otros archivos. 
-            <br><b>- EMMET:</b><br>Es una herramienta y conjunto de abreviaturas que se utiliza para acelerar y simplificar la escritura de código HTML y CSS en entornos de desarrollo web. Proporciona una sintaxis abreviada que se expande automáticamente en código HTML o CSS más completo.
-          <br><br></p2>
-          <h5 class="subtitle is-size-6">PROCEDIMIENTOS</h5>
-          <p2>
-            La sesión trató del uso de las abreviaturas de EMMETT para la agilización de codificación. Es una de las funciones integradas de VS Code que también funciona en otros editores como una extensión.
-            Emmett es como una taquigrafía, se puede escribir con facilidad gran cantidad de código de trabajo en HTML y CSS. 
-          </p2>
-          <p2><br>.::: ETIQUETAS BÁSICAS :::.</p2>
-          <p2><br>Para crear etiquetas básicas, simplemente se escribe el nombre de la etiqueta y presione Tab. El cursor se colocará dentro de la etiqueta para configurar los demás componentes. 
-            <br>Intente escribir desde un div o h1 hasta abreviaciones como bq para blockquote, btn para button, sect para section, etc.
-          </p2>
-          <img src="img/em1.png" alt="">
-          <p2><br>.::: CLASES :::.</p2>
-          <p2><br>Para definir una clase junto con la etiqueta solo se realiza de la siguiente manera: Etiqueta.clase <br>
-          </p2>
-          <img src="img/em2.png" alt="">
-          <p2><br>.::: ID :::.</p2>
-          <p2><br>Para definir un Id se realiza de manera similar: Etiqueta#Id <br>
-          </p2>
-          <img src="img/em3.png" alt="">
-          <p2><br>.::: CONTENIDO :::.</p2>
-          <p2><br>Para incluir contenido dentro de la etiqueta, simplemente envolvemos el contenido entre llaves, { }. <br>
-          </p2>
-          <img src="img/em4.png" alt="">
-          <p2><br>.::: ETIQUETAS HERMANOS E HIJOS :::.</p2>
-          <p2><br>También podemos especificar etiquetas hermanos e hijos usando los caracteres + y > respectivamente. <br>
-          </p2>
-          <img src="img/em5.png" alt="">
-          <p2><br>.::: ESCALANDO :::.</p2>
-          <p2><br>En este ejemplo, "treparemos" por la estructura HTML usando ^. <br>
-          </p2>
-          <img src="img/em6.png" alt="">
-          <p2><br>.::: MULTIPLICACIÓN y $ :::.</p2>
-          <p2><br>Podemos generar múltiples etiquetas multiplicando (*) y numerando elementos en secuencia usando un signo de dólar ($). <br>
-          </p2>
-          <img src="img/em7.png" alt="">
-          <p2><br>.::: LOREM :::.</p2>
-          <p2><br>Es un texto ficticio utilizado por los desarrolladores para representar datos en una página. Simplemente escriba lorem y presione Tab. <br>
-          </p2>
-          <img src="img/em8.png" alt="">
-
-          <h5 class="subtitle is-size-6">RESULTADOS</h5>
-          <p2>
-            Se practicaron con varias sentencias abreviadas en emmet y se ejecutaron. A continuación se muestran ejemplos de abreviaturas emmet y sus resultados luego de ser ejecutados: <br>
-          </p2>
-          <img src="img/result1.png" alt="">
-
+          
           <!--DESCRIPCION SEMANA 2 y 3-->
           <div class="column">
             <div class="banner-container">
               <span class="container-icon">
                 <img src="img/panel.png" alt="">
               </span>
-              <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 2 Y 3</h4>
-              <p class="has-text-centered is-size-7-mobile">28 de agosto al 1 de setiembre Y del 4 de setiembre al 8 de setiembre del 2023</p>
+              <a href="/sumaryes/sem02-03.html">
+                <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 2-3</h4>
+              </a>              <p class="has-text-centered is-size-7-mobile">28 de agosto al 1 de setiembre Y del 4 de setiembre al 8 de setiembre del 2023</p>
             </div>
           </div>
-          <h5 class="subtitle is-size-6">DEFINICIONES</h5>
-          <p2>
-            <b>- HTML:</b><br>Significa "HyperText Markup Language", es un estándar que se utiliza para la creación y el diseño de páginas web. Fue desarrollado originalmente por el World Wide Web Consortium (W3C) con el objetivo de facilitar la creación y el intercambio de documentos en la World Wide Web.
-            <br><b>- Arbol DOM:</b><br>Es una estructura de datos jerárquica y en forma de árbol que representa la estructura de un documento HTML o XML. El DOM se utiliza principalmente en el desarrollo web para permitir la manipulación dinámica y la interacción con los elementos de una página web mediante lenguajes de programación como JavaScript.
-            <br><b>- Ciclo de vida de una página web:</b><br>Se refiere a las distintas etapas que experimenta una página desde que se carga inicialmente en un navegador web hasta que se cierra o se navega a otra página. Sus principales fases son: solicitud y descarga, procesamiento HTML y procesador DOM, construcción árbol CSSOM, renderizado, ejecución de scrpits, interactividad y cierre.
-            <br><b>- CSS:</b><br>Significa "Cascading Style Sheets", es un lenguaje utilizado para describir el aspecto y formato de un documento HTML. En resumen, CSS se encarga de definir cómo se presentará el contenido HTML en un navegador.
-            <br><b>- Layout:</b><br>Se refiere a la disposición o diseño estructurado de elementos en una página, documento o entorno gráfico. En el contexto del desarrollo web y diseño de interfaces, el "layout" describe la organización y la distribución de componentes, como texto, imágenes, formularios y otros elementos, en una página web.
-            <br><b>- Responsivo:</b><br>También conocido como diseño web adaptable, se refiere a la capacidad de una página web para adaptarse y ofrecer una experiencia óptima independientemente del dispositivo o tamaño de pantalla en el que se visualice. El diseño responsivo utiliza técnicas de diseño y desarrollo que permiten que la estructura, el diseño y los elementos de una página se ajusten de manera dinámica para satisfacer las características específicas del dispositivo del usuario.
-            <br><b>- Accesibilidad:</b><br>Es la práctica de diseñar productos, entornos y servicios de manera que sean utilizables por todas las personas, independientemente de sus habilidades físicas o cognitivas, y sin la necesidad de adaptaciones especiales.
-          <br><br></p2>
-          <h5 class="subtitle is-size-6">PROCEDIMIENTOS</h5>
-          <p2>
-            Toda pagina web sigue la estructura DOM que significa Document Object Model donde se detallan tres partes diferenciadas: cabecera, cuerpo y pie de página. Sus terminilogías o etiquetas dentro de HTML son: header, body y footer.
-            <br>- Cabecera: es la parte superior de la página web. Aquí suele incluirse la información básica de la empresa o marca y es consistente en todo el sitio, es decir, se repite en cada página de la web por la que navegas.
-            <br>- Cuerpo: es la parte de la web que alberga el contenido principal de tu página. Esta parte sí es diferente en cada página de tu sitio. Es decir, no será el mismo contenido el que incluyes en tu página de contacto que en la página principal.
-            <br>- Pie de página: es la parte inferior de una página web. Al igual que la cabecera, se repite y es consistente en cada página. En el footer podemos encontrar menú simplificado, información de contacto, botones de redes sociales, política de privacidad. <br>
-          </p2>
-          <img src="img/t2.png" alt="">
-          <p2>
-            <br>El funcionamiento de HTML lo podemos evidenciar en la plataforma VS Code donde se estructuran el conjunto de etiquetas para que la página pueda funcionar con las características y contenido brindado. <br>
-          </p2>
-          <img src="img/t2-1.png" alt="">
-          <p2>
-            <br>Existe una amplia variedad de etiquetas que se utilizan en HTML, a continuación, se muestran algunas de las etiquetas más comunes: <br>
-          </p2>
-          <img src="img/t2-2.png" alt="">
-          <img src="img/t2-3.png" alt="">
-          <p2><br>.::: ARBOL DOM :::.</p2>
-          <p2><br>Es una representación jerárquica en forma de árbol de la estructura de un documento HTML o XML. Cada elemento, atributo y texto en el documento es representado como un nodo en el árbol, permitiendo la manipulación y la interacción dinámica con el contenido de la página mediante JavaScript u otras tecnologías del lado del cliente. <br>
-          </p2>
-          <img src="img/t2-4.png" alt="">
-          <p2><br>.::: HOJAS DE ESTILO :::.</p2>
-          <p2><br>Se refieren a las reglas y definiciones que se aplican para controlar el diseño y la presentación visual de un documento HTML o XML. Las hojas de estilo suelen estar escritas en CSS (Cascading Style Sheets), y determinan aspectos como el color, la tipografía, el espaciado, la disposición y otros estilos visuales de los elementos en una página web. <br>
-          </p2>
-          <img src="img/t2-5.png" alt="">
-          <p2><br>.::: FLEXBOX :::.</p2>
-          <p2><br>O Flexible Box Layout, es un modelo de diseño en CSS que permite diseñar de manera eficiente interfaces flexibles y dinámicas, especialmente para el diseño de cajas y la distribución de espacio entre elementos en un contenedor. <br>
-          </p2>
-          <img src="img/t2-6.png" alt="">
-          <p2><br>.::: GRID LAYOUT :::.</p2>
-          <p2><br>Es un modelo de diseño en CSS que permite crear interfaces bidimensionales, organizando el contenido en filas y columnas en una cuadrícula. Este sistema de diseño proporciona una forma más poderosa y precisa de estructurar y alinear elementos en comparación con Flexbox. <br>
-          </p2>
-          <img src="img/t2-7.png" alt="">
-
-          <h5 class="subtitle is-size-6">RESULTADOS <br></h5>
-          <p2>
-            Codificación: <br>
-          </p2>
-          <img src="img/cod2-1.png" alt="">
-          <img src="img/cod2-2.png" alt="">
-          <p2>
-            <br>Respuesta HTML: <br>
-          </p2>
-          <img src="img/cod2-3.png" alt="">
+          
           <!--DESCRIPCION SEMANA 4-->
           <div class="column">
             <div class="banner-container">
               <span class="container-icon">
                 <img src="img/panel.png" alt="">
               </span>
-              <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 4</h4>
+              <a href="sumaryes/sem04.html">
+                <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 4</h4>
+              </a>
               <p class="has-text-centered is-size-7-mobile">11 de setiembre al 15 de setiembre del 2023</p>
             </div>
           </div>
-          <h5 class="subtitle is-size-6">DEFINICIONES</h5>
-          <p2>
-            <b>- ECMAScript:</b><br>Es la especificación estándar que define el lenguaje de programación subyacente de JavaScript. Fue creado por Ecma International, una organización internacional de normalización, y se estableció por primera vez en 1997. La especificación ECMAScript proporciona las reglas y las pautas que los implementadores de JavaScript deben seguir para garantizar la compatibilidad entre diferentes motores de JavaScript en navegadores y entornos de ejecución.
-            <br><b>- Desarrollador Frontend:</b><br>Es un profesional de la programación que se enfoca en la creación y mantenimiento de la interfaz de usuario y la experiencia del usuario en aplicaciones web o sitios web. Este tipo de desarrollador trabaja en el lado del cliente, es decir, en la parte del software que interactúa directamente con los usuarios finales a través de sus navegadores web.
-            <br><b>- JavaScript:</b><br>Es un lenguaje de programación de alto nivel, interpretado y orientado a objetos, diseñado principalmente para ejecutarse en navegadores web. Se utiliza para mejorar la interactividad de las páginas web al permitir la manipulación dinámica del contenido, responder a eventos del usuario y realizar operaciones en el lado del cliente. JavaScript es esencial en el desarrollo web moderno y se emplea para crear experiencias interactivas, validar formularios, gestionar el DOM y comunicarse con servidores a través de tecnologías como AJAX.
-            <br><b>- SpiderMonkey:</b><br>Es el motor de JavaScript desarrollado por Mozilla, la organización detrás del navegador web Firefox. Es un componente clave en el ecosistema de Mozilla y se utiliza para interpretar y ejecutar el código JavaScript en el navegador Firefox.
-            <br><b>- NodeJS:</b><br>Es un entorno de ejecución de JavaScript del lado del servidor que utiliza el motor V8 de Google Chrome para ejecutar código. A diferencia de JavaScript en el navegador, que se ejecuta del lado del cliente, Node.js permite ejecutar JavaScript del lado del servidor, lo que posibilita el desarrollo de aplicaciones web escalables y de alto rendimiento.
-            <br><b>- POO:</b><br>La Programación Orientada a Objetos (POO) es un paradigma de programación que se basa en el concepto de "objetos". En este enfoque, los objetos son instancias de clases que encapsulan datos y comportamientos relacionados. La POO se centra en organizar el código de manera que los datos y las funciones relacionadas estén agrupados en unidades cohesivas y reutilizables.
-          <br><br></p2>
-          <h5 class="subtitle is-size-6">PROCEDIMIENTOS</h5>
-          <p2>
-            Se mostraron ejemplos de las diferentes funciones y operaciones que se pueden realizar con JavaScript. <br>
-            A continuación se muestra el código de prueba: <br>
-            ***Operaciones <br>
-          </p2>
-          <img src="img/t3-1.png" alt=""><br>
-          <img src="img/t3-2.png" alt="">
-          <p2>
-            <br>***Bucles<br>
-          </p2>
-          <img src="img/t3-3.png" alt="">
-          <p2>
-            <br>***Closures<br>
-          </p2>
-          <img src="img/t3-4.png" alt="">
-          <p2>
-            <br>***Arrays<br>
-          </p2>
-          <img src="img/t3-5.png" alt="">
-          <p2>
-            <br>***CANVAS<br>
-          </p2>
-          <img src="img/t3-6.png" alt="">
-
-          <h5 class="subtitle is-size-6">RESULTADOS</h5>
-          <p2>
-            Se creó un reloj análogo utilizando canvas, se muestra el resultado en el navegador: <br>
-          </p2>
-          <img src="img/t3-7.png" alt="">
+          
           <!--DESCRIPCION SEMANA 5-->
           <div class="column">
             <div class="banner-container">
               <span class="container-icon">
                 <img src="img/panel.png" alt="">
               </span>
-              <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 5</h4>
+              <a href="sumaryes/sem05.html">
+                <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 5</h4>
+              </a>
               <p class="has-text-centered is-size-7-mobile">18 de setiembre al 22 de setiembre del 2023</p>
             </div>
           </div>
-          <h5 class="subtitle is-size-6">DEFINICIONES</h5>
-          <p2>
-            <b>- ECMAScript:</b><br>Es la especificación estándar que define el lenguaje de programación subyacente de JavaScript. Fue creado por Ecma International, una organización internacional de normalización, y se estableció por primera vez en 1997. La especificación ECMAScript proporciona las reglas y las pautas que los implementadores de JavaScript deben seguir para garantizar la compatibilidad entre diferentes motores de JavaScript en navegadores y entornos de ejecución.
-            <br><b>- Desarrollador Frontend:</b><br>Es un profesional de la programación que se enfoca en la creación y mantenimiento de la interfaz de usuario y la experiencia del usuario en aplicaciones web o sitios web. Este tipo de desarrollador trabaja en el lado del cliente, es decir, en la parte del software que interactúa directamente con los usuarios finales a través de sus navegadores web.
-            <br><b>- JavaScript:</b><br>Es un lenguaje de programación de alto nivel, interpretado y orientado a objetos, diseñado principalmente para ejecutarse en navegadores web. Se utiliza para mejorar la interactividad de las páginas web al permitir la manipulación dinámica del contenido, responder a eventos del usuario y realizar operaciones en el lado del cliente. JavaScript es esencial en el desarrollo web moderno y se emplea para crear experiencias interactivas, validar formularios, gestionar el DOM y comunicarse con servidores a través de tecnologías como AJAX.
-            <br><b>- SpiderMonkey:</b><br>Es el motor de JavaScript desarrollado por Mozilla, la organización detrás del navegador web Firefox. Es un componente clave en el ecosistema de Mozilla y se utiliza para interpretar y ejecutar el código JavaScript en el navegador Firefox.
-            <br><b>- NodeJS:</b><br>Es un entorno de ejecución de JavaScript del lado del servidor que utiliza el motor V8 de Google Chrome para ejecutar código. A diferencia de JavaScript en el navegador, que se ejecuta del lado del cliente, Node.js permite ejecutar JavaScript del lado del servidor, lo que posibilita el desarrollo de aplicaciones web escalables y de alto rendimiento.
-            <br><b>- POO:</b><br>La Programación Orientada a Objetos (POO) es un paradigma de programación que se basa en el concepto de "objetos". En este enfoque, los objetos son instancias de clases que encapsulan datos y comportamientos relacionados. La POO se centra en organizar el código de manera que los datos y las funciones relacionadas estén agrupados en unidades cohesivas y reutilizables.
-          <br><br></p2>
-          <h5 class="subtitle is-size-6">RESULTADOS</h5>
-          <p2>
-            Se realizó la instalación correcta de Node JS. <br>
-          </p2>
-          <img src="img/t5-1.png" alt="">
 
+          </div>
+          
           <!--FINAL FINAL-->
+      </div>
+
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-full has-text-centered">
+          
+        </div>
+        <!--DESCRIPCION SEMANA 6-->
+        <div class="column">
+          <div class="banner-container">
+            <span class="container-icon">
+              <img src="img/panel.png" alt="">
+            </span>
+            <a href="/sumaryes/sem06.html">
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 6</h4>
+            </a>
+            <p class="has-text-centered is-size-7-mobile">25 de setiembre al 29 de setiembre del 2023</p>
+          </div>
+        </div>
+        
+        <!--DESCRIPCION SEMANA 7-->
+        <div class="column">
+          <div class="banner-container">
+            <span class="container-icon">
+              <img src="img/panel.png" alt="">
+            </span>
+            <a href="/sumaryes/sem07.html">
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 7</h4>
+            </a>              <p class="has-text-centered is-size-7-mobile"></p>
+          </div>
+        </div>
+        
+        <!--DESCRIPCION SEMANA 9-->
+        <div class="column">
+          <div class="banner-container">
+            <span class="container-icon">
+              <img src="img/panel.png" alt="">
+            </span>
+            <a href="sumaryes/sem09.html">
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 9</h4>
+            </a>
+            <p class="has-text-centered is-size-7-mobile">4 de diciembre al 8 de diciembre del 2023</p>
+          </div>
+        </div>
+        
+        <!--DESCRIPCION SEMANA 10-->
+        <div class="column">
+          <div class="banner-container">
+            <span class="container-icon">
+              <img src="img/panel.png" alt="">
+            </span>
+            <a href="sumaryes/sem10.html">
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 10</h4>
+            </a>
+            <p class="has-text-centered is-size-7-mobile">11 de diciembre al 15 de diciembre del 2023</p>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-full has-text-centered">
+          
+        </div>
+        <!--DESCRIPCION SEMANA 11-->
+        <div class="column">
+          <div class="banner-container">
+            <span class="container-icon">
+              <img src="img/panel.png" alt="">
+            </span>
+            <a href="/sumaryes/sem11.html">
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 11</h4>
+            </a>
+            <p class="has-text-centered is-size-7-mobile">18 de diciembre al 22 de diciembre del 2023</p>
+          </div>
+        </div>
+        
+        <!--DESCRIPCION SEMANA 12-->
+        <div class="column">
+          <div class="banner-container">
+            <span class="container-icon">
+              <img src="img/panel.png" alt="">
+            </span>
+            <a href="/sumaryes/sem12.html">
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 12</h4>
+            </a>              <p class="has-text-centered is-size-7-mobile">25 de diciembre al 29 de diciembre del 2023</p>
+          </div>
+        </div>
+        
+        <!--DESCRIPCION SEMANA 13-->
+        <div class="column">
+          <div class="banner-container">
+            <span class="container-icon">
+              <img src="img/panel.png" alt="">
+            </span>
+            <a href="sumaryes/sem13.html">
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 13</h4>
+            </a>
+            <p class="has-text-centered is-size-7-mobile">1 de enero al 5 de enero del 2024</p>
+          </div>
+        </div>
+        
+        <!--DESCRIPCION SEMANA 14-->
+        <div class="column">
+          <div class="banner-container">
+            <span class="container-icon">
+              <img src="img/panel.png" alt="">
+            </span>
+            <a href="sumaryes/sem14.html">
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 14</h4>
+            </a>
+            <p class="has-text-centered is-size-7-mobile">8 de enero al 12 de enero del 2024</p>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-full has-text-centered">
+          
+        </div>
+        <!--DESCRIPCION SEMANA 15-->
+        <div class="column">
+          <div class="banner-container">
+            <span class="container-icon">
+              <img src="img/panel.png" alt="">
+            </span>
+            <a href="/sumaryes/sem15.html">
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">SEMANA 15</h4>
+            </a>
+            <p class="has-text-centered is-size-7-mobile">15 de enero al 19 de enero del 2024</p>
+          </div>
+        </div>
+        </div>
+        <!--FINAL FINAL-->
       </div>
     </div>
   </div>
@@ -345,7 +332,7 @@
                 <i class="zmdi zmdi-camera-monochrome-photos zmdi-hc-2x"></i>
               </span>
               <h4 class="is-size-5 has-text-centered has-text-weight-bold">Sistema de mesa de partes</h4>
-              <p class="has-text-centered is-size-7-mobile">Se utilizó el framework AdminLTE para registrar los expedientes de mesa de partes.</p>
+              <p class="has-text-centered is-size-7-mobile">Se utilizó el dashboard de AdminLTE para registrar los expedientes de mesa de partes.</p>
             </div>
           </div>
           <div class="column">
@@ -371,16 +358,13 @@
       <div class="column">
         <h5 class="subtitle is-size-6">JRCV</h5>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cumque ducimus enim cupiditate iusto quas praesentium, qui unde odio molestias, saepe optio suscipit non eos doloremque voluptate quidem a reprehenderit.
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi placeat expedita dolorem eaque, omnis sunt sint dolorum! Quaerat, unde sequi doloribus impedit quae nam non. Vitae vel odio iste molestias!
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis rerum magnam expedita voluptatum commodi facilis inventore similique aut quas delectus recusandae odit, perspiciatis maiores sequi aperiam iusto minus dolore vitae.
-
+          Presentaré mi apreciación acerca del curso y las temáticas llevadas acabo en el periodo 2023-II
+          <br>En el primer período consolidado de la asignatura de desarrollo de aplicaciones web, se lograron avances significativos. En cuanto a HTML y CSS, aprendimos a crear páginas web con un diseño responsivo, asegurando una adaptación óptima a diversos dispositivos y tamaños de pantalla. También adquirimos conocimientos en JavaScript, lo que nos permitió animar objetos y elementos en las páginas web, proporcionándoles interactividad y dinamismo. Exploramos el uso de Canvas, lo que nos brindó la capacidad de dibujar objetos y figuras. Por último, incursionamos en Node.js, aprendiendo a desarrollar aplicaciones web que se ejecutan en el lado del servidor. Los resultados obtenidos en este primer consolidado fueron satisfactorios, sirviendo como motivación para continuar el aprendizaje con dedicación y esfuerzo.
+          <br>En el segundo consolidado, consolidé integralmente mis conocimientos en el desarrollo fullstack, desde los conceptos fundamentales hasta la aplicación práctica de tecnologías avanzadas como React, Next.js y Spring Framework. Mi enfoque metacognitivo, respaldado por la práctica activa, la investigación constante y la reflexión continua sobre mis estrategias de aprendizaje, ha sido esencial para mi progreso. La práctica activa, mediante la implementación de proyectos prácticos como el desarrollo de un catálogo de productos y la integración de autenticación en Next.js, ha sido clave para consolidar mi comprensión y habilidades prácticas. La interacción con la comunidad en línea, aprovechando recursos digitales y compartiendo conocimientos, ha enriquecido significativamente mi experiencia educativa.
         <br><br>
         </p>
         <div class="gallery-container" id="gallery-container">
-          
         </div>
-        
       </div>
     </div>
   </div>
@@ -424,8 +408,58 @@
           Se hizo la instalación de Node JS, en mi caso lo hice en mi computadora personal fuera del horario de clases de la misma manera que se explicó en clase.
         <br><br>
         </p>
+        <h5 class="subtitle is-size-6">SEMANA 6</h5>
+        <p>
+          He adquirido habilidades en la creación de componentes en React, los cuales son unidades independientes y reutilizables de la interfaz de usuario que encapsulan tanto la lógica como la presentación de una parte específica de la aplicación. También he aprendido a utilizar el estado en React para representar la información relevante de un componente en un momento dado. Adicionalmente, he comprendido la importancia de las herramientas y bibliotecas disponibles en React para simplificar el desarrollo y el mantenimiento de aplicaciones. Asimismo, he entendido el concepto de unidireccionalidad en React, donde los datos fluyen en una sola dirección, facilitando la comprensión y el mantenimiento del código.
+        <br><br>
+        </p>
+        <h5 class="subtitle is-size-6">SEMANA 7</h5>
+        <p>
+          La semana estuvo enfocada en la fase de evaluación. Durante este período, me centré en la aplicación práctica y demostración de los conocimientos y habilidades que había adquirido hasta ese momento. Me sometí a una evaluación que me brindó la oportunidad de poner en práctica lo aprendido y demostrar mi comprensión de los temas abordados previamente.
+        <br><br>
+        </p>
+        <h5 class="subtitle is-size-6">SEMANA 9</h5>
+        <p>
+          Se desarrollaron habilidades esenciales en el uso de React, abarcando la creación de componentes modulares, la estructuración de la aplicación mediante JSX, la comprensión del proceso de renderizado con ReactDOM.render(), la transferencia eficiente de datos entre componentes y la implementación de una organización estructurada al dividir los componentes en archivos separados. Además, se exploraron conceptos clave como JSX y el renderizado en React, y se realizaron distinciones entre los componentes de función y los de clase.
+        <br><br>
+        </p>
+        <h5 class="subtitle is-size-6">SEMANA 10</h5>
+        <p>
+          En mi experiencia con React, obtuve conocimientos esenciales al utilizar el hook useState para gestionar variables de estado, logrando así la persistencia del estado entre renderizaciones. También exploré la implementación de JSX para organizar la interfaz mediante componentes reutilizables. Adquirí una comprensión detallada del proceso de renderizado en React, empleando ReactDOM.render(), y aprendí a manejar la transferencia de datos entre componentes, tanto de manera unidireccional como entre componentes anidados. La recomendación de estructurar componentes en archivos separados para mejorar la reutilización y el mantenimiento del código también fue parte integral de mi aprendizaje. Además, utilicé la biblioteca Axios para realizar solicitudes HTTP, integrando eficazmente datos de la API de Rick and Morty en mis proyectos de React.        <br><br>
+        </p>
+        <h5 class="subtitle is-size-6">SEMANA 11</h5>
+        <p>
+          Durante la presente semana, desarrollé habilidades fundamentales en React, centrándome especialmente en el uso eficaz del hook useEffect para gestionar efectos secundarios. Me familiaricé con la modularización de la lógica de formularios mediante la creación de custom hooks, como por ejemplo, useForm. También adquirí la capacidad de consumir APIs externas de manera eficiente utilizando Axios. La utilización de referencias (useRef) para acceder directamente a nodos del DOM y la implementación de contadores y generadores de números aleatorios contribuyeron significativamente a mi comprensión general de React. Además, se reforzaron conceptos de buenas prácticas, como la organización estructurada de componentes en archivos separados.
+        <br><br>
+        </p>
+        <h5 class="subtitle is-size-6">SEMANA 12</h5>
+        <p>
+          En el transcurso de esta semana, desarrollé habilidades fundamentales en React, centrándome específicamente en el uso de useReducer y useContext como herramientas clave. Obtuve la capacidad de manejar el estado de manera más compleja y estructurada mediante useReducer, lo que facilitó la gestión de transiciones y acciones específicas en la aplicación. La creación del custom hook useForm me permitió modularizar eficientemente la lógica de manejo de formularios. Además, fortalecí la organización y reutilización del código al estructurar los componentes en archivos separados. La utilización de useRef para acceder directamente a nodos del DOM y el consumo de APIs externas con Axios ampliaron mis capacidades en el desarrollo con React. Implementé alertas visuales utilizando SweetAlert2 y empleé useContext para una transmisión eficiente de valores de estado entre componentes, simplificando la estructuración del proyecto.
+        <br><br>
+        </p>
+        <h5 class="subtitle is-size-6">SEMANA 13</h5>
+        <p>
+          En la transcurso de la semana, obtuve conocimientos significativos sobre Next.js, un marco de React diseñado para aplicaciones web de pila completa. Exploré el concepto de Single Page Applications (SPAs) y comprendí cómo Next.js aborda desafíos relacionados con el SEO, proporcionando soluciones para mejorar la indexación en motores de búsqueda. Me familiaricé con el uso de Server Components en Next.js para realizar operaciones del lado del servidor, como consumir la API de Rick and Morty. Además, adquirí habilidades en la implementación de Fetch en Server Components, la descarga de proyectos desde GitHub, la instalación de dependencias y la creación de funciones para obtener y renderizar datos de manera eficiente.
+        <br><br>
+        </p>
+        <h5 class="subtitle is-size-6">SEMANA 14</h5>
+        <p>
+          El aprendizaje se llevó a cabo mediante la práctica activa y la aplicación directa de los conceptos en un proyecto específico. La instalación y configuración del backend se realizaron de manera práctica, ejecutando comandos y entendiendo el flujo del sistema. La exploración y configuración de NextAuth se basó en la documentación oficial, aplicando los procedimientos paso a paso. La instalación de Bootstrap y su implementación en el frontend se llevó a cabo de manera consciente, mejorando la interfaz de usuario de la aplicación. La creación de componentes y la configuración de middleware para gestionar rutas protegidas se realizaron en un contexto práctico, fortaleciendo la comprensión de la autenticación y autorización en Next.js. En resumen, aprendí de manera activa, aplicando conceptos teóricos en un proyecto práctico y experimentando con la configuración y uso de herramientas clave como NextAuth y Bootstrap.
+        <br><br>
+        </p>
+        <h5 class="subtitle is-size-6">SEMANA 15</h5>
+        <p>
+          Mi aprendizaje se basó en una combinación de teoría y práctica. La configuración de Spring mediante archivos XML se llevó a cabo aplicando procedimientos prácticos, donde definí objetos y dependencias de manera estructurada. La creación de clases y objetos, como el ejemplo de la clase "Estudiante.java", proporcionó una comprensión práctica de la representación de componentes en una aplicación empresarial. La utilización del contenedor de IoC de Spring se aprendió aplicándolo a la creación, configuración y gestión de objetos, fortaleciendo mi comprensión sobre modularidad y reutilización de código. La aplicación del patrón de Inyección de Dependencia mejoró la mantenibilidad de la aplicación al separar la configuración de la lógica de negocio. La exploración de la integración de tecnologías como JPA, Hibernate, Struts y JSF proporcionó una visión más amplia sobre la flexibilidad y la expansión de la aplicación al integrar diferentes frameworks y tecnologías. En resumen, aprendí mediante la aplicación práctica de conceptos en un entorno Java con Spring, fortaleciendo mi comprensión teórica con la experiencia directa en la configuración y desarrollo de aplicaciones empresariales.
+        <br><br>
+        </p>
+        <h5 class="subtitle is-size-3">REFLEXION FINAL DEL CURSO</h5>
+        <p>
+          A lo largo del curso, he experimentado un proceso educativo completo en el campo de la tecnología web, donde he obtenido conocimientos que abarcan desde los conceptos fundamentales del desarrollo web hasta la aplicación práctica de tecnologías avanzadas como React, Next.js y Spring Framework. Mi enfoque metacognitivo, que se centra en la reflexión constante sobre las estrategias de aprendizaje, ha sido fundamental para mi progreso.
+          En cuanto a lo que aprendí, adquirí una comprensión sólida del desarrollo fullstack, aprendiendo a integrar de manera eficiente componentes tanto en el lado del servidor como del cliente para crear experiencias completas para los usuarios. En el ámbito de React y Next.js, consolidé habilidades que van desde la creación básica de componentes hasta la implementación de características avanzadas, como Server Components y autenticación con NextAuth. Además, obtuve conocimientos detallados sobre Spring Framework, incluyendo su configuración con archivos XML, conceptos como la Inversión de Control (IoC) y la Inyección de Dependencia, y su aplicación práctica en el desarrollo de aplicaciones empresariales en Java. También desarrollé competencias esenciales en tecnologías web, como JavaScript, manipulación del DOM, validación de formularios y consumo de APIs externas con Axios. Este aprendizaje integral me proporciona las herramientas necesarias para abordar desafíos en el desarrollo fullstack y aplicar principios clave en el desarrollo de aplicaciones web.
+          Mi proceso de aprendizaje se basó en la práctica activa, implementando activamente conceptos teóricos en proyectos prácticos para consolidar mi comprensión y habilidades prácticas. La búsqueda activa de información a través de la investigación y la exploración de recursos en línea, junto con la ejecución de proyectos prácticos como el desarrollo de un catálogo de productos y la implementación de autenticación en Next.js, fue esencial para aplicar mis conocimientos en contextos reales. Además, mi interacción con la comunidad en línea, aprovechando recursos digitales y compartiendo conocimientos, enriqueció significativamente mi experiencia de aprendizaje. La reflexión continua sobre mi progreso y la adaptación de estrategias de aprendizaje fueron herramientas clave para superar desafíos y aprovechar al máximo las oportunidades educativas.
+        <br><br>
+        </p>
       </div>
-
     </div>
   </div>
   <!-- Footer -->

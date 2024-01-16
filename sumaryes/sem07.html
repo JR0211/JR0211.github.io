@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PORTAFOLIO ELECTRÓNICO</title>
+  <link rel="stylesheet" href="/css/bulma.min.css">
+  <link rel="stylesheet" href="/css/material-design-iconic-font.css">
+  <link rel="stylesheet" href="/css/style.css">
+ 
+</head>
+
+<body>
+  <nav class="navbar">
+    <!-- Nabvar header -->
+    <header class="navbar-header" id="navbar-header">
+      <a href="#" class="brand-link is-size-3">
+        <img src="/img/log.png" alt="" width="40" height="40">
+        <span class="brand">PORTAFOLIO - DESARROLLO WEB</span>
+      </a>
+      <button class="navbar-menu-mobile open is-size-3 is-hidden-desktop" id="navbar-menu-mobile">
+        <i class="zmdi zmdi-menu"></i>
+      </button>
+    </header>
+    <!-- Navbar container -->
+
+      <ul class="navbar-container" id="navbar-container">
+        <li class="navbar-item">
+          <a data-scroll href="/index.html" id="inicio" class="navbar-a navbar-link-active">Bienvenido</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="/index.html#section1" id="section" class="navbar-a">Tabla de contenido</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="/index.html#about" id="acercaDe" class="navbar-a">Sobre mí</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="/index.html#section2" id="photos" class="navbar-a">Trabajos realizados</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="/index.html#end" id="form" class="navbar-a">Conclusión</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="/index.html#contacto" id="form" class="navbar-a">Reflexiones</a>
+        </li>
+      </ul>
+  
+  </nav>
+  
+  <div class="section-body" id="top">
+
+  <!-- Tabla de contenido -->
+  <div id="section1" class="hero my-hero" style="--banner: url(../img/hero-img.jpg); --bg-atachment: fixed;">
+    <div class="container-hero has-text-weight">
+      <div class="column is-full has-text-centered">
+        <h1 class="title has-text-white is-size-3-mobile is-size-1-tablet">
+          SEMANA 7
+        </h1>
+      </div>
+      <div class="container">
+          
+          <!--DESCRIPCION SEMANA 7-->
+          <h5 class="subtitle is-size-3">DEFINICIONES</h5>
+          <p2>
+            <br><b>- UseState:</b><br>Es un hook que te permite añadir estado a tus componentes funcionales. Antes de la introducción de los hooks en React (versiones anteriores a la 16.8), los componentes funcionales no tenían la capacidad de manejar estados locales.
+            <br><b>- UseEffect:</b><br>Es otro hook fundamental que permite realizar efectos secundarios en componentes funcionales. Los efectos secundarios pueden ser tareas asíncronas, subscripciones a eventos, modificaciones del DOM y más. useEffect se utiliza para manejar estas operaciones en componentes funcionales.
+            <br><b>- UseRef:</b><br>Se utiliza para crear una referencia mutable que puede asociarse con un elemento del DOM o con un valor mutable en el ciclo de vida del componente. A diferencia del estado, las referencias creadas con useRef no provocan una re-renderización cuando cambian.
+            <br><b>- CustomHooks:</b><br>En React son funciones JavaScript que encapsulan lógica de estado y comportamiento para ser reutilizada en múltiples componentes. Estos hooks personalizados siguen la convención de nombre use para que React los reconozca como ganchos y puedan aprovechar las características de los hooks, como el estado local y los ciclos de vida.
+          <br><br></p2>
+          <h5 class="subtitle is-size-3">PROCEDIMIENTOS</h5>
+          <p2>
+            Para sincronizar los nuevos proyectos y cambios del repositorio del curso y continuar con la clase, es necesario que se ejecute el siguiente comando: git add. / git commit -m cambios / git pull 
+          </p2>
+          <p2><br>.::: UseEffect :::.</p2>
+          <p2><br>Utilizaremos UseEffect para conseguir una API pero primero realizaremos una introducción a los casos de UseEffect, para ello trabajaremos en el componente Hooks del proyecto.
+          </p2><br>
+          <img src="/img/t7-1.PNG" alt="">
+          <p2><br>.::: USEEFEFECT SIN SEGUNDO PARÁMETRO :::.</p2>
+          <p2><br>En este caso en particular el Hook actuara cada que el componente sufra algun cambio y al renderizar por primera vez. <br>
+          </p2>
+          <img src="/img/T7-2.PNG" alt=""><br>
+          <img src="/img/t7-3.PNG" alt="">
+
+          <p2><br>.::: USEEFFECT PARA RENDERIZAR SOLO AL CARGAR EL COMPONENTE :::.</p2>
+          <p2><br>Para realizar esta acción pondremos como segundo parametro del Hook un array vacio. <br>
+          </p2>
+          <img src="/img/T7-4.PNG" alt=""><br>
+          <img src="/img/t7-5.PNG" alt="">          
+          <p2><br>.::: USEEFFECT ASOCIADO A UNA VARIABLE :::.</p2>
+          <p2><br>En este caso el hook solo se disparara si una variable de estado tiene algun cambio.<br>
+          </p2>
+          <img src="/img/t7-6.png" alt=""><br>
+          <img src="/img/t7-7.png" alt="">
+          <p2><br>.::: USEREF :::.</p2>
+          <p2><br>En React, la manipulación del DOM se lleva a cabo mediante referencias (refs). Estas referencias ofrecen una manera de acceder directamente a los nodos del DOM, en lugar de depender exclusivamente de la manipulación del estado de React. Sin embargo, se aconseja favorecer la manipulación del estado en lugar de depender excesivamente de las referencias.<br>
+          </p2>
+          <img src="/img/t7-8.PNG" alt="">
+          
+          <h5 class="subtitle is-size-3">RESULTADOS</h5>
+          <p2>
+            Resultado de la clase, demostración de Hooks.<br>
+          </p2>
+          <img src="/img/t7-9.PNG" alt=""><br>
+          <p2>
+            Resultado de Reto, consumo de Api Pokemon<br>
+          </p2>
+          <img src="/img/t7-10.PNG" alt="">
+
+          <!--FINAL FINAL-->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="my-footer">
+    <div class="hero my-hero" style="--banner: url(../img/footer-banner.jpg); --bg-atachment: none;">
+      <div class="container-hero">
+        <div class="columns is-multiline">
+          
+          <div class="column is-full">
+            <ul class="my-footer-ul">
+              <li  class="my-footer-item">
+                <a href="#" class="my-footer-link facebook">
+                  <i class="zmdi zmdi-facebook"></i>
+                </a>
+              </li>
+              <li class="my-footer-item">
+                <a href="#" class="my-footer-link instagram">
+                  <i class="zmdi zmdi-instagram"></i>
+                </a>
+              </li>
+              <li class="my-footer-item">
+                <a href="#" class="my-footer-link pinterest">
+                  <i class="zmdi zmdi-pinterest"></i>
+                </a>
+              </li>
+              <li class="my-footer-item">
+                <a href="#/" class="my-footer-link twitter">
+                  <i class="zmdi zmdi-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="column has-text-centered is-size-7-mobile  is-full">
+            <p class="footer-p has-text-white">© 2023 JRCV. Todos los derechos reservados</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PORTAFOLIO ELECTRÓNICO</title>
+  <link rel="stylesheet" href="/css/bulma.min.css">
+  <link rel="stylesheet" href="/css/material-design-iconic-font.css">
+  <link rel="stylesheet" href="/css/style.css">
+ 
+</head>
+
+<body>
+  <nav class="navbar">
+    <!-- Nabvar header -->
+    <header class="navbar-header" id="navbar-header">
+      <a href="#" class="brand-link is-size-3">
+        <img src="/img/log.png" alt="" width="40" height="40">
+        <span class="brand">PORTAFOLIO - DESARROLLO WEB</span>
+      </a>
+      <button class="navbar-menu-mobile open is-size-3 is-hidden-desktop" id="navbar-menu-mobile">
+        <i class="zmdi zmdi-menu"></i>
+      </button>
+    </header>
+    <!-- Navbar container -->
+
+      <ul class="navbar-container" id="navbar-container">
+        <li class="navbar-item">
+          <a data-scroll href="/index.html" id="inicio" class="navbar-a navbar-link-active">Bienvenido</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="/index.html#section1" id="section" class="navbar-a">Tabla de contenido</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="/index.html#about" id="acercaDe" class="navbar-a">Sobre mí</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="/index.html#section2" id="photos" class="navbar-a">Trabajos realizados</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="/index.html#end" id="form" class="navbar-a">Conclusión</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="/index.html#contacto" id="form" class="navbar-a">Reflexiones</a>
+        </li>
+      </ul>
+  
+  </nav>
+  
+  <div class="section-body" id="top">
+
+  <!-- Tabla de contenido -->
+  <div id="section1" class="hero my-hero" style="--banner: url(../img/hero-img.jpg); --bg-atachment: fixed;">
+    <div class="container-hero has-text-weight">
+      <div class="column is-full has-text-centered">
+        <h1 class="title has-text-white is-size-3-mobile is-size-1-tablet">
+          SEMANA 15
+        </h1>
+      </div>
+      <div class="container">
+          
+          <!--DESCRIPCION SEMANA 15-->
+          <h5 class="subtitle is-size-3">DEFINICIONES</h5>
+          <p2>
+            <br><b>- NextAuth:</b><br>Librería utilizada con Next.js para la implementación de autenticación y autorización en aplicaciones web.
+            <br><b>- Backend:</b><br>Parte de una aplicación que se encarga de procesar datos y realizar operaciones del lado del servidor.
+            <br><b>- Frontend:</b><br>Interfaz de usuario y experiencia de usuario de una aplicación, visible y accesible para el usuario final.
+            <br><b>- Boostrap:</b><br>Marco de diseño que facilita el desarrollo de interfaces web responsivas y atractivas.
+            <br><b>- Midleware:</b><br>Software que se encuentra entre el sistema operativo y las aplicaciones, facilitando la comunicación y el procesamiento de datos.
+            <br><b>- Proveedor de sesiones:</b><br>Componente que gestiona la información de la sesión del usuario, como su estado de autenticación.
+          <br><br></p2>
+          <h5 class="subtitle is-size-3">PROCEDIMIENTOS</h5>
+          <p2>
+            Se abordó la implementación de autenticación con Next.js utilizando NextAuth. Se instaló y configuró el backend del sistema, se exploró la documentación de NextAuth para proveedores de credenciales y se procedió a crear el frontend con Bootstrap. La configuración de NextAuth incluyó la creación de proveedores de credenciales para autenticación mediante correo electrónico y contraseña. Se instaló y utilizó el paquete Bootstrap para mejorar el diseño y la apariencia del frontend. También se implementó la gestión de sesiones y se exploraron conceptos como el proveedor de sesiones y el middleware de NextAuth. <br>          </p2>
+          <p2><br>.::: Instalación y configuración :::.</p2>
+          <p2><br>Instalación y configuración del backend del sistema, incluyendo la ejecución de comandos como npm i y docker compose up -d.
+            <br>Creación de un proveedor de sesiones para gestionar la autenticación y autorización del usuario.
+            <br>Configuración de proveedores de credenciales para autenticación mediante correo electrónico y contraseña.
+            <br>Instalación del paquete Bootstrap para mejorar el diseño y la apariencia del frontend.
+            <br>Implementación de un componente de botones para manejar la autenticación y desautenticación del usuario.
+            <br>Configuración de middleware para gestionar rutas protegidas en el dashboard de la aplicación.
+          </p2><br>
+          <img src="/img/t14-1.PNG" alt="">
+          
+          
+          <h5 class="subtitle is-size-3">RESULTADOS</h5>
+          <p2>
+            Se logró instalar y configurar el backend del sistema, así como la creación del frontend utilizando Bootstrap para mejorar la interfaz de usuario.
+            <br>NextAuth se implementó exitosamente para gestionar la autenticación mediante correo electrónico y contraseña.
+            <br>Se diseñó y creó una página de dashboard protegida, la cual solo es accesible para usuarios autenticados.
+            <br>Se implementaron botones de autenticación y desautenticación, permitiendo al usuario interactuar con el sistema de autenticación.
+            <br>Se exploraron y aplicaron conceptos importantes, como el proveedor de sesiones y el middleware, para gestionar el estado de autenticación y proteger rutas específicas en la aplicación.
+          </p2>
+          
+          <!--FINAL FINAL-->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="my-footer">
+    <div class="hero my-hero" style="--banner: url(../img/footer-banner.jpg); --bg-atachment: none;">
+      <div class="container-hero">
+        <div class="columns is-multiline">
+          
+          <div class="column is-full">
+            <ul class="my-footer-ul">
+              <li  class="my-footer-item">
+                <a href="#" class="my-footer-link facebook">
+                  <i class="zmdi zmdi-facebook"></i>
+                </a>
+              </li>
+              <li class="my-footer-item">
+                <a href="#" class="my-footer-link instagram">
+                  <i class="zmdi zmdi-instagram"></i>
+                </a>
+              </li>
+              <li class="my-footer-item">
+                <a href="#" class="my-footer-link pinterest">
+                  <i class="zmdi zmdi-pinterest"></i>
+                </a>
+              </li>
+              <li class="my-footer-item">
+                <a href="#/" class="my-footer-link twitter">
+                  <i class="zmdi zmdi-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="column has-text-centered is-size-7-mobile  is-full">
+            <p class="footer-p has-text-white">© 2023 JRCV. Todos los derechos reservados</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+  
+</body>
+
+</html>
